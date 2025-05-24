@@ -1,0 +1,13 @@
+-- Create the table
+CREATE TABLE beverages (
+    id INTEGER PRIMARY KEY,
+    beverage_name TEXT NOT NULL,
+    price INTEGER NOT NULL
+);
+
+-- Insert sample beverage records
+INSERT INTO beverages (id, beverage_name, price) VALUES (1, 'Green Tea', 90);
+INSERT INTO beverages (id, beverage_name, price) VALUES (2, 'Black Coffee', 100);
+INSERT INTO beverages (id, beverage_name, price) VALUES (3, 'Hot Chocolate', 140);
+INSERT INTO beverages (id, beverage_name, price) VALUES (4, 'Iced Latte', 130);
+INSERT INTO beverages (id, beverage_name, price) VALUES (5, 'Milkshake', 160);

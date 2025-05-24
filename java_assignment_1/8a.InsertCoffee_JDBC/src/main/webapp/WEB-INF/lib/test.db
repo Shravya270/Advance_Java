@@ -1,0 +1,6 @@
+-- coffee.sql (optional if you want to create manually via SQLite browser)
+CREATE TABLE IF NOT EXISTS coffee (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    coffee_name TEXT NOT NULL,
+    price INTEGER NOT NULL
+);

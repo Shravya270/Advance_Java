@@ -1,0 +1,11 @@
+-- Create the Emp table
+CREATE TABLE IF NOT EXISTS Emp (
+    Emp_NO INTEGER PRIMARY KEY,
+    Emp_Name TEXT NOT NULL,
+    Basicsalary INTEGER NOT NULL
+);
+
+-- Insert sample records
+INSERT INTO Emp (Emp_NO, Emp_Name, Basicsalary) VALUES (101, 'Aarav', 45000);
+INSERT INTO Emp (Emp_NO, Emp_Name, Basicsalary) VALUES (102, 'Meera', 50000);
+INSERT INTO Emp (Emp_NO, Emp_Name, Basicsalary) VALUES (103, 'Rohit', 47000);
