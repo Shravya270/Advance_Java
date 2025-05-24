@@ -1,77 +1,82 @@
-🧠 Advanced Java Programming – Lab Contents
+💡 Advanced Java Programming – Lab Contents
 1. 🗂️ Collections Framework
 ArrayList Operations
 ▸ Add, Update, Remove, Search
-▸ Iterate, Sort, Sublist, Clear
+▸ Iterate, Sort, Create Sublist, Clear
 
-LinkedList Operations
+LinkedList Programs
 ▸ Forward & Reverse Traversal
-▸ Insert at Position, Swap Elements
-▸ Display with Position Tracking
+▸ Insert at Index, Swap Elements
+▸ Display with Position Info
 
-Mini Programs
-▸ Color List: Search, Remove, Sort
-▸ Sublist Creation, Delete by Index
+Mini Tasks
+▸ Color list search & removal
+▸ Sorting elements
+▸ Deletion by index
+▸ Sublist extraction
 
-2. 🔤 String Handling
-Basic String Operations
-▸ Creation, Comparison
-▸ Substring, Replace, Format
-▸ Email Validation
+2. 🔠 String Handling
+Core Operations
+▸ String creation, comparison
+▸ Substrings, modifications
+▸ String formatting & email validation
 
-Performance Testing
+Performance Comparison
 ▸ StringBuffer vs StringBuilder
 
-String Exercises
-▸ Null Check, Substring Count
-▸ Reverse & Palindrome
-▸ Whitespace Removal, Title Case
-▸ Truncation, Numeric Check
-▸ Random String Generator
-▸ Word Counter
+String Practice Tasks
+▸ Null/empty check
+▸ Count substring occurrences
+▸ Reverse & Palindrome check
+▸ Remove whitespaces
+▸ Capitalize first letter
+▸ Truncate strings
+▸ Numeric-only check
+▸ Generate random strings
+▸ Word counting
 
-3. 🖥️ GUI Programming (Swing)
-Basic Swing UI
-▸ Message Display, Custom Font
+3. 🪟 GUI Programming (Java Swing)
+Basic GUI
+▸ Show messages in styled fonts
 
 Event Handling
-▸ Button Click → Show Message / Image
+▸ Button clicks → message/image popups
 
-Swing Components
-▸ JList: Display Selected Items
-▸ JTabbedPane: Switch Tabs, Show Info
+Components Used
+▸ JList – Show selected items
+▸ JTabbedPane – Tabbed content display
 
-4. 🌐 Web Programming (Servlets & JSP)
+4. 🌍 Web Technologies (Servlets & JSP)
 Servlet Programs
-▸ Factorial Calculator
-▸ Prime Number Checker
-▸ Cookie Creation + Expiry
-▸ Session Management + Timeout
+▸ Factorial calculation
+▸ Prime number check
+▸ Cookie creation + expiry
+▸ Session tracking with timeout
 
-JSP Programs
-▸ Cookie/Session Handling
-▸ Dynamic Cookie Listing
+JSP Tasks
+▸ Session & cookie handling
+▸ Display dynamic cookie list
 
-5. 💾 JDBC with MySQL (Database)
-Databases Used
-▸ Employee
-▸ Coffee
+5. 🛢️ Database Connectivity (JDBC with SQLite)
+Database Used
+▸ Employee table using SQLite
 
-JDBC Programs with HTML & JSP
-▸ Insert, Update, Delete, Search
-▸ Generate Salary / Product Reports
+JDBC + JSP Integration
+▸ Insert employee records (based on name, number, salary)
+▸ Delete employees starting with a specific letter (from input)
+▸ Generate structured HTML Salary Report
 
 6. 🛠️ Setup Instructions
-Install XAMPP
-▸ Start Apache & MySQL
-▸ URL: http://localhost/phpmyadmin
+Install SQLite
+▸ Use SQLite browser or command-line tool to manage .db file
 
-Import SQL Files
-▸ Use Employee.sql / test.sql to create required tables
+Create Employee Table
+▸ Manually create or import the SQL schema via tool
 
-Install Apache Tomcat
-▸ Deploy and test JSP & Servlet files
+Configure JDBC for SQLite
+▸ Download SQLite JDBC Driver
+▸ Add the .jar file to your project classpath
 
-Add MySQL Connector/J
-▸ Include .jar in your project classpath
-
+Deploy JSP Files
+▸ Use Apache Tomcat (or any JSP container)
+▸ Place files in appropriate directories (like /webapps/projectname/)
