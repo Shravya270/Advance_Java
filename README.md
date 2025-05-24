@@ -1,110 +1,77 @@
-🌟 Advanced Java Programming Lab Guide
-Welcome to the Advanced Java Lab, a hands-on journey through Java’s powerful features! This guide walks you through everything you’ll practice—from real-world data structures to web-based Java apps using JDBC, Servlets, and JSP.
+🧠 Advanced Java Programming – Lab Contents
+1. 🗂️ Collections Framework
+ArrayList Operations
+▸ Add, Update, Remove, Search
+▸ Iterate, Sort, Sublist, Clear
 
-🧰 Java Collections Mastery
-🔹 Core Collections
-ArrayList & LinkedList
+LinkedList Operations
+▸ Forward & Reverse Traversal
+▸ Insert at Position, Swap Elements
+▸ Display with Position Tracking
 
-Perform: Add, Update, Delete, Search
+Mini Programs
+▸ Color List: Search, Remove, Sort
+▸ Sublist Creation, Delete by Index
 
-Sort data and extract sublists
+2. 🔤 String Handling
+Basic String Operations
+▸ Creation, Comparison
+▸ Substring, Replace, Format
+▸ Email Validation
 
-Clear entire list contents
+Performance Testing
+▸ StringBuffer vs StringBuilder
 
-📘 Mini Projects & Exercises
-ArrayList Tasks
-✔️ Find specific elements (e.g., colors)
-✔️ Remove by value or index
-✔️ Sort alphabetically
-✔️ Extract a portion of the list
+String Exercises
+▸ Null Check, Substring Count
+▸ Reverse & Palindrome
+▸ Whitespace Removal, Title Case
+▸ Truncation, Numeric Check
+▸ Random String Generator
+▸ Word Counter
 
-LinkedList Tasks
-🔁 Forward & reverse iteration
-↪️ Insert at specific positions
-🔄 Swap elements
-🆔 Display items with their indices
+3. 🖥️ GUI Programming (Swing)
+Basic Swing UI
+▸ Message Display, Custom Font
 
-✂️ String Handling & Manipulation
-🧪 Core Concepts
-Create, compare, extract substrings
+Event Handling
+▸ Button Click → Show Message / Image
 
-Modify, format, and validate strings (like email)
+Swing Components
+▸ JList: Display Selected Items
+▸ JTabbedPane: Switch Tabs, Show Info
 
-⚙️ Practical String Utilities
-Performance Test: StringBuffer vs StringBuilder
+4. 🌐 Web Programming (Servlets & JSP)
+Servlet Programs
+▸ Factorial Calculator
+▸ Prime Number Checker
+▸ Cookie Creation + Expiry
+▸ Session Management + Timeout
 
-Tasks:
+JSP Programs
+▸ Cookie/Session Handling
+▸ Dynamic Cookie Listing
 
-Null or empty check
+5. 💾 JDBC with MySQL (Database)
+Databases Used
+▸ Employee
+▸ Coffee
 
-Count word/substring frequency
+JDBC Programs with HTML & JSP
+▸ Insert, Update, Delete, Search
+▸ Generate Salary / Product Reports
 
-Reverse a string
+6. 🛠️ Setup Instructions
+Install XAMPP
+▸ Start Apache & MySQL
+▸ URL: http://localhost/phpmyadmin
 
-Palindrome checker
+Import SQL Files
+▸ Use Employee.sql / test.sql to create required tables
 
-Remove whitespace
+Install Apache Tomcat
+▸ Deploy and test JSP & Servlet files
 
-Title-case conversion
-
-Character limit truncation
-
-Digit-only validation
-
-Generate random strings
-
-🖼️ GUI Programming using Swing
-🖥️ Swing Basics
-Create interfaces with labels, buttons, and styled messages
-
-🎯 Event-Based UI
-Respond to button actions with messages & images
-
-Dynamic content switching using JTabbedPane, JList
-
-🌍 Web Development using Java EE
-☕ Servlets
-Input-based logic:
-➤ Factorial calculator
-➤ Prime number tester
-
-Session management & cookies:
-➤ Set and expire sessions/cookies
-
-📄 JSP (JavaServer Pages)
-Build dynamic web pages
-
-Handle sessions and cookies
-
-View cookie data in a readable format
-
-🛢️ JDBC (Java + SQL Integration)
-💼 Real-Time DB Operations
-Build CRUD apps (Create, Read, Update, Delete) for:
-
-Employee Database
-
-Coffee Database
-
-📋 Integration with Web
-Link HTML forms with JSP pages
-
-Display structured reports dynamically
-
-Support filtering, deletion, and sorting from the browser
-
-🧪 Setup Instructions
-✅ Install XAMPP
-Launch Apache & MySQL
-Access DB at: http://localhost/phpmyadmin
-
-🗂️ Import Databases
-Use .sql files like employee.sql or test.sql to create tables
-
-🚀 Configure Tomcat Server
-Download and set up Apache Tomcat
-Deploy your Servlets & JSP files
-
-🧩 Add JDBC Driver
-Include MySQL Connector/J in your project’s library path
+Add MySQL Connector/J
+▸ Include .jar in your project classpath
 
